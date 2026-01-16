@@ -4,9 +4,8 @@
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills i should pay attention to depending on the role I'm targeting.
 
-Vie my notebook with detailed steps here:
-[2_Skills_Demand.ipynb](3_Project\2_Skills_Demand.ipynb)
-### Visualize Data
+View my notebook with detailed steps here:
+Python_Data_Project\3_Project\2_Skills_Demand.ipynb
 
 ```python
 fig, ax = plt.subplots(len(job_titles), 1)
@@ -19,8 +18,7 @@ plt.show()
 ```
 
 ### Results
-
-![Visualization of Top Skills for Data Nerds](3_Project\Images\skill_demand_all_data_roles.png)
+<img src="3_Project\Images\skill_demand_all_data_roles.png" alt="Skills Chart" width="600">
 
 ### Insights
 - Python is a versatile skill, highly demanded across all three roles, but most prominently for Data Scientists (72%) and Data Engineers (65%).
@@ -47,7 +45,7 @@ plt.show()
 ```
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](3_Project\Images\skill_trend_da.png)
+<img src="3_Project\Images\skill_trend_da.png" alt="Top Skills Trend Chart for Data Analysts in the US" width="600">
 
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
@@ -71,7 +69,7 @@ plt.show()
 ```
 #### Results
 
-![Salary Distribution of Data Jobs in the US](3_Project\Images\Salary_Analysis.png)
+<img src="3_Project\Images\Salary_Analysis.png" alt="Salary Distibution Chart in the US" width="600">
 *Box plot visualizing the salary distribution for the top 6 data job titles.*
 
 #### Insights
